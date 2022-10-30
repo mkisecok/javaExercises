@@ -12,23 +12,6 @@ public class Circle {
         return 3.14 * radius * radius;
     }
 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     public static void main(String[] args) {
         System.out.println("Hello world!");
