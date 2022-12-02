@@ -1,12 +1,14 @@
-package exercises.SingletonPattern;
+package exercises.singletonpattern;
 
 public class DoubleCheckedSingleton {
 
     //private static variable of same class
     private static DoubleCheckedSingleton theInstance = null;
 
+    public static final String STRING_CONSTANT = "newText";
+
     //private constructor
-    private DoubleCheckedSingleton(){
+    private DoubleCheckedSingleton() {
 
     }
 
@@ -22,5 +24,7 @@ public class DoubleCheckedSingleton {
             }
         }
         return theInstance;
+
     }
+
 }
