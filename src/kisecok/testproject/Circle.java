@@ -1,6 +1,6 @@
 package kisecok.testproject;
 
-public class Circle {
+public  class Circle {
 
     private int radius; //default modifier
 
