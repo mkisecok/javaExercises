@@ -1,4 +1,4 @@
-package exercises.SingletonPattern;
+package exercises.singletonpattern;
 
 public class BillPughSingleton {
 
